@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+}
+.left {
+  width: 40%;
+}
+.right {
+  width: 60%;
+}
+
+/* contact */
+.box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 330px;
+  margin: 0 auto;
+}
+
+.contact_input {
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* CSS cho phần Contact List */
+.contact-list {
+  margin-top: 20px;
+}
+
+.contact-list h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-list table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.contact-list th,
+.contact-list td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact-list th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.contact-list td {
+  vertical-align: middle;
+}
+
+.contact-list button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.contact-list button.delete {
+  background-color: #dc3545;
+}
+
+.contact-list button.edit {
+  background-color: #ffc107;
+}
+
+/* Hiển thị hover khi di chuột vào hàng */
+.contact-list tbody tr:hover {
+  background-color: #f2f2f2;
+}
+.contact-list td.editable {
+  background-color: #f2f2f2;
+}
+
+.contact-list td.editable input {
+  width: 100%;
+  padding: 5px;
+}
